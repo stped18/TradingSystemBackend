@@ -9,6 +9,6 @@ public class ActionApi {
 
     @GetMapping("/test")
     String  test() {
-        return "hello world kubernets";
+        return "hello world kubernetsv";
     }
 }
