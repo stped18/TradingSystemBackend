@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class VittenBackendApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Starting web app");
+
 		SpringApplication.run(VittenBackendApplication.class, args);
 	}
 
