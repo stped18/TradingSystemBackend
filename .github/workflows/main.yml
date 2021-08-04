@@ -34,9 +34,10 @@ jobs:
           restore-keys: |
             $ {{runner.os }}-buildx-
       -
-        name: login to DockerHub
+        name: login to DockerHub  ${{ secrets.vittech.DOCKER_USERNAME }}
         uses: docker/login-action@v1
         with:
+
           username: ${{ secrets.vittech.DOCKER_USERNAME }}
           password: ${{ secrets.vittech.DOCKER_PASSWORD }}
       -
