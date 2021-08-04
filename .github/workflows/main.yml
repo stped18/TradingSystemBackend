@@ -46,7 +46,6 @@ jobs:
           platforms: linux/arm64, linux/arm/v7
           builder: ${{ steps.buildx.outputs.name }}
           push: true
-          reposetry 
           tags: vittech/tradingsystemspringwebserver:${{ github.run_number }}
 
 
