@@ -1,5 +1,5 @@
-FROM openjdk:11
-ARG JAR_FILE=target/vitten_backend-0.0.1-SNAPSHOT.jar
-ADD ${JAR_FILE} app.jar
-ENTRYPOINT ["java","-jar","/app.jar"]
-EXPOSE 5800
+FROM  arm64v8/openjdk:8u302-jdk-oraclelinux8
+RUN mkdir /opt/app
+COPY target/tradingwebbackend-0.0.1.jar /opt/app
+CMD ["java", "-jar", "/opt/app/tradingwebbackend-0.0.1.jar"]
+EXPOSE 8081

@@ -1,4 +1,2 @@
-vitten\backend\vitten_backend\apis\TradingApi.class
-vitten\backend\vitten_backend\apis\ActionApi.class
-vitten\backend\vitten_backend\VittenBackendApplication.class
-vitten\backend\vitten_backend\models\Action.class
+vittech\backend\tradingwebbackend\api\TestAPI.class
+vittech\backend\tradingwebbackend\TradingwebbackendApplication.class

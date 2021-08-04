@@ -1,2 +1,4 @@
 server:
-  port : 5800
+  port : 8081
+  server:
+  address: "0.0.0.0"

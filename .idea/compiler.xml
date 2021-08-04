@@ -6,16 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="vitten_backend" />
+        <module name="tradingwebbackend" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="vitten_backend" target="11" />
+      <module name="tradingwebbackend" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="vitten_backend" options="-parameters" />
+      <module name="tradingwebbackend" options="-parameters" />
     </option>
   </component>
 </project>
