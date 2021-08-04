@@ -8,7 +8,7 @@ public class TestAPI {
 
     @GetMapping("/test")
     String test() {
-        return "det virker";
+        return "det virker nu";
     }
 
     @GetMapping("/")
